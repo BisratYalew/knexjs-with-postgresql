@@ -1,6 +1,6 @@
 exports.up = (knex, Promise) => {
 
-	return Promise.all([
+    return Promise.all([
 
         knex.schema.createTable('users', (table) => {
 
